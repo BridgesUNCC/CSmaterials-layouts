@@ -1,0 +1,13 @@
+CXX=clang++
+LD=g++
+
+CPPFLAGSLOCAL = -stdlib=libc++
+
+BRIDGES_INCL = $(HOME)/gr/bridges/client/cxx/bridges18/src
+IFLAGS = -I$(BRIDGES_INCL)  -I/usr/local/curl763/include -I /usr/local/rapidjson/include
+
+LDFLAGSLOCAL=-L/usr/local/curl763/lib
+
+ASSIGNMENTID=1
+BRIDGESUSER=kalpathi60
+BRIDGESAPI=486749122386

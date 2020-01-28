@@ -1,0 +1,13 @@
+CXX=g++
+LD=g++
+
+CPPFLAGSLOCAL = 
+
+BRIDGES_INCL = $(HOME)/work/bridges/bridges-cxx/src
+IFLAGS = -I$(BRIDGES_INCL)  -I $(HOME)/prgs/rapidjson/include
+
+LDFLAGSLOCAL=
+
+ASSIGNMENTID=3
+BRIDGESUSER=esaule
+BRIDGESAPI=1090423871824
